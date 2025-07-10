@@ -1,0 +1,90 @@
+{
+  "name": "expo-geofencing",
+  "version": "1.0.0",
+  "description": "Production-ready geofencing and activity recognition for Expo React Native with offline support, security features, and enterprise-grade reliability",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf build",
+    "prepare": "npm run clean && npm run build",
+    "prepack": "npm run build",
+    "test": "echo \"Warning: No tests specified\" && exit 0",
+    "lint": "echo \"Warning: No linting configured\" && exit 0",
+    "dev": "tsc --watch",
+    "check-types": "tsc --noEmit"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "geofencing",
+    "activity-recognition",
+    "location",
+    "offline",
+    "security",
+    "privacy",
+    "enterprise",
+    "production",
+    "webhooks",
+    "analytics",
+    "polygon",
+    "health-monitoring",
+    "battery-optimization"
+  ],
+  "author": {
+    "name": "Expo Geofencing Contributors",
+    "email": "support@expo-geofencing.dev"
+  },
+  "contributors": [
+    "Claude AI Assistant"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.19.0",
+    "crypto-js": "^4.1.1"
+  },
+  "peerDependencies": {
+    "expo": ">=49.0.0",
+    "react": ">=18.0.0",
+    "react-native": ">=0.72.0"
+  },
+  "peerDependenciesMeta": {
+    "expo": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.72.0",
+    "@types/crypto-js": "^4.1.1",
+    "@types/node": "^18.0.0",
+    "typescript": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/expo-geofencing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/expo-geofencing/issues"
+  },
+  "homepage": "https://github.com/your-username/expo-geofencing#readme",
+  "files": [
+    "build/**/*",
+    "android/**/*",
+    "ios/**/*",
+    "plugin/**/*",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "ADVANCED_FEATURES.md",
+    "PRODUCTION_FEATURES.md"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

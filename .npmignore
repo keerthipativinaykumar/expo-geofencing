@@ -1,0 +1,61 @@
+# Development files
+src/
+*.ts
+!*.d.ts
+tsconfig.json
+.DS_Store
+.vscode/
+.idea/
+
+# Test files
+__tests__/
+*.test.*
+*.spec.*
+
+# Documentation (keep only essential)
+docs/
+*.md
+!README.md
+!CHANGELOG.md
+!LICENSE
+
+# Build artifacts (keep build folder)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Git
+.git/
+.gitignore
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+
+# Development tools
+.eslintrc.*
+.prettierrc.*
+jest.config.*
+babel.config.*
+
+# Example and development
+example/
+demo/
+playground/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS generated files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
