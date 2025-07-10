@@ -19,9 +19,15 @@ jobs:
           registry-url: 'https://registry.npmjs.org/'
 
       - name: Install dependencies
-        run: npm install
-        
-      - name: Install dependencies
+        run: |
+          echo "🔧 Trying npm install..."
+          npm install || (echo "⚠️ Failed! Retrying with legacy-peer-deps..." && npm install --legacy-peer-deps)
+  
+      - name: Print success message
+        if: success()
+        run: echo "✅ NPM install succeeded!"
+  
+      - name: Running CI command
         run: npm ci
 
       - name: Test the build process
