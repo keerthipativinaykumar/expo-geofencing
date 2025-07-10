@@ -62,12 +62,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/expo-geofencing.git"
+    "url": "git+https://github.com/keerthipativinaykumar/expo-geofencing.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/expo-geofencing/issues"
+    "url": "https://github.com/keerthipativinaykumar/expo-geofencing/issues"
   },
-  "homepage": "https://github.com/your-username/expo-geofencing#readme",
+  "homepage": "https://github.com/keerthipativinaykumar/expo-geofencing#readme",
   "files": [
     "build/**/*",
     "android/**/*",
