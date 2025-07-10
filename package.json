@@ -73,6 +73,7 @@
     "android/**/*",
     "ios/**/*",
     "plugin/**/*",
+    "docs/**/*",
     "README.md",
     "LICENSE",
     "CHANGELOG.md",
