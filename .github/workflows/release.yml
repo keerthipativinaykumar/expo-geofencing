@@ -42,7 +42,7 @@ jobs:
           name: Release v${{ steps.version.outputs.VERSION }}
           generate_release_notes: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.EXPOGEOFENCINGGITHUBTOKEN }}
 
       - name: Publish to npm
         if: steps.check_tag.outputs.EXISTS == 'false'
