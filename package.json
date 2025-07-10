@@ -45,9 +45,9 @@
     "crypto-js": "^4.1.1"
   },
   "peerDependencies": {
-    "expo": "*",
-    "react": "*",
-    "react-native": "*"
+    "expo": ">=49.0.0",
+    "react": ">=18.0.0",
+    "react-native": ">=0.72.0"
   },
   "peerDependenciesMeta": {
     "expo": {
