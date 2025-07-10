@@ -359,8 +359,7 @@ interface HealthAlert {
 
 - [Advanced Features Guide](./ADVANCED_FEATURES.md)
 - [Production Features Overview](./PRODUCTION_FEATURES.md)
-- [API Reference](./docs/api.md)
-- [Platform-Specific Guides](./docs/platform-guides.md)
+- [Platform-Specific Guides](./docs/PLATFORM-GUIDES.md)
 
 ## 🎯 Use Cases
 
